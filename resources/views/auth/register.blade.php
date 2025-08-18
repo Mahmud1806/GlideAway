@@ -20,10 +20,8 @@
         <x-input-label for="type" :value="__('Type')" />
         
             <select id="type" name="type" required class="block mt-1 w-full rounded-md shadow-sm border-gray-300">
-                <option value="" disabled selected>Select type</option>
-                <option value="admin" {{ old('type') == 'admin' ? 'selected' : '' }}>Admin</option>
-                <option value="guide" {{ old('type') == 'guide' ? 'selected' : '' }}>Guide</option>
-                <option value="customer" {{ old('type') == 'customer' ? 'selected' : '' }}>Customer</option>
+                <option value="customer">Customer</option>
+                <option value="admin">Admin</option>
             </select>
             
             <x-input-error :messages="$errors->get('type')" class="mt-2" />

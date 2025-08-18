@@ -21,7 +21,8 @@ class User extends Authenticatable implements MustVerifyEmail
         'name',
         'email',
         'password',
-        "type","city"
+        'type',
+        'city',
     ];
 
     /**
@@ -48,7 +49,7 @@ class User extends Authenticatable implements MustVerifyEmail
     }
 
     public function isAdmin()
-{
-    return $this->type === 'admin';
-}
+    {
+        return $this->type === 'admin';
+    }
 }

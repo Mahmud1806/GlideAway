@@ -12,7 +12,7 @@
     <div class="flex flex-col justify-between bg-gray-200 w-full h-[600px] mt-6 rounded-md shadow-md overflow-hidden shadow-4xl">
       
       <!-- Trip image -->
-      <img src="{{ asset('images/img1.jpg') }}" class="w-full h-48 object-cover" alt="Trip image">
+      <img src="{{ asset('storage/' . $trip->image) }}" class="w-full h-48 object-cover" alt="Trip image">
 
       <!-- Trip content -->
       <div class="flex flex-col flex-1 px-4 py-2">

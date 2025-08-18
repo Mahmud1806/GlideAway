@@ -3,7 +3,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="flex justify-between h-16">
             <div class="flex items-center">
-             <a href="{{ route('dashboard') }}" class="text-3xl font-bold text-gray-900 hover:text-indigo-600 transition duration-150">
+             <a href="{{ route('dashboard') }}" class="hover:text-green-800 text-3xl font-bold text-gray-900 hover:text-indigo-600 transition duration-150">
                  GlideAway
             </a>
                 <!-- Logo -->
