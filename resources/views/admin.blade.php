@@ -40,14 +40,27 @@
     <img src="{{ asset('images/viewShop.jpg') }}" alt="View Shop" class="w-full h-1/2" />
   <div class="p-5"><h1 class="text-3xl font-bold">View Shop</h1>
   <p class="mt-8">As an admin you can view and manage the shop's inventory. Press the button below to complete the form for our customers</p>
-  <button class="mt-6 bg-blue-500 text-white py-2 px-4 rounded">View Shop</button>
+  <a href="{{ route('manage.shop') }}" class="mt-6 bg-blue-500 text-white py-2 px-4 rounded inline-block text-center">
+  View Shop
+</a>
 </div>
 </div>
   <div class="flex flex-col items-center w-[400px] bg-gray-200 h-[500px] rounded-2xl">
-    <img src="{{ asset('images/addTrip.jpg') }}" alt="Add Trip" class="w-full h-1/2" />
-  <div class="p-5"><h1 class="text-3xl font-bold">Add Trips</h1>
-  <p class="mt-8">As an admin you can add trips to the database. Press the button below to complete the form for our customers</p>
-  <button class="mt-6 bg-blue-500 text-white py-2 px-4 rounded">Add Trip</button>
+    <img src="{{ asset('images/shop.jpg') }}" alt="Add Trip" class="w-full h-1/2" />
+  <div class="p-5"><h1 class="text-3xl font-bold">Add Shop Items</h1>
+  <p class="mt-8">As an admin you can add items to the shop's inventory. Press the button below to complete the form for our customers</p>
+ <a href="{{ route('add.items') }}" class="mt-6 bg-blue-500 text-white py-2 px-4 rounded inline-block text-center">
+  Add Items
+</a>
+</div>
+</div>
+  <div class="flex flex-col items-center w-[400px] bg-gray-200 h-[500px] rounded-2xl">
+    <img src="{{ asset('images/blog.jpg') }}" alt="Add Trip" class="w-full h-1/2" />
+  <div class="p-5"><h1 class="text-3xl font-bold">Manage BlogPosts</h1>
+  <p class="mt-8">As an admin you can manage blog posts. Press the button below to complete the form for our customers</p>
+  <a href="{{ route('manage.blogpost') }}" class="mt-6 bg-blue-500 text-white py-2 px-4 rounded inline-block text-center">
+  Manage Blogpost
+</a>
 </div>
 </div>
 

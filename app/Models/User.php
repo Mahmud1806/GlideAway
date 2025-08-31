@@ -52,4 +52,10 @@ class User extends Authenticatable implements MustVerifyEmail
     {
         return $this->type === 'admin';
     }
+
+    public function blogposts()
+{
+    return $this->hasMany(Blogpost::class);
+}
+
 }
